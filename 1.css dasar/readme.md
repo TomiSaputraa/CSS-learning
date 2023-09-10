@@ -1,0 +1,51 @@
+# 1. Font styling :
+
+- font-family
+- font-size
+- font-weight
+- font-variant -> mengubah font menjadi small caps
+- font-style -> mengubah font menjadi cetak miring
+- line-height -> mengatur spasi antar baris
+
+# 2. Text Styling :
+
+- color = warna bisa nama,hexa,rgb
+- text-align -> align center dll
+- text-indent = mengatur indentasi
+- text-decoration = mengatur dekorasi pada teks/sering digunakan untuk menghilangkan garis bawah pada link
+- text-transform = mengubah jenis huruf menjadi besar/kecil/kapital
+- letter-spacing = mengatus spasi antar huruf
+- word-spacing = mengatur spasi antar kata
+
+# 3. background :
+
+- background-color -> warna background
+- background-image -> gambar background
+- background-position = top/center/bottom/right/bottom
+- background-repeat = mengatur pengulangan pada gambar background
+  ! secara deafult gambar akan di looping berdasarkan sumbu x dan y
+
+# 4. selector
+
+digunakan pada css untuk mengenali sebuah element html yang akan diberi style
+elemen selector : html, id, class, complex selector
+usahakan menggunakan element html karna lebih ringan beban, perbandingan :
+elemen html = 1
+class = 10
+id = 100 lebih berat
+
+# 5. pseudo class :
+
+class semu yang dimiliki oleh sebuah elemen html, yang membuat kita dapat mendefinisikan style "pada keadaan tertentu" dari element tersebut
+
+- :link = style default pada sebuah link a (yang memiliki href)
+- :hover = syle ketika cursor di atas sebuah elemen/link
+- :active = style ketika sebuah link di klik(keadaan aktif)
+- :visited = style ketika link sudah pernah di kunjungi
+- :targer = ketika elemen di target atau di klik
+  pseudo berhubungan dengan posisi elemen
+- :first-child = memilih sebuah elemen pertama dari sebuah parent(elemen pembungkusnya)
+- :last-child = memilih sebuah elemen terakhir dari sebuah parent(elemen pembungkusnya)
+- :nth-child(n) = memilih elemen ke-n dari sebuah parent(pembungkus elemen)
+- :first-of-type = memilih elemen pertama dari sebuah jenis/ tipe tag
+- :last-of-type = memilih elemen terakhir dari sebuah jenis/ tipe tag
