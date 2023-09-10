@@ -1,0 +1,10 @@
+/* * artinya semua elemen */
+* {
+  margin: 0;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* koma berarti & */
+h1, h2 {
+    color: green;
+}
+
+/* spasi artinya didalam */
+ol li a{
+    color: aqua;
+}
+
+ul li a {
+    color: orange;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+/* id */
+#lorem {
+    color: goldenrod;
+}
+
+/* class */
+.loram {
+    color: darkolivegreen;
+}
+/* class dengan 2 nama dan juga digunakan di elemen a*/
+.cetak-tebal {
+    font-size: 30px;
+}
+
+p.cetak-tebal {
+    font-size: 20px;
+}

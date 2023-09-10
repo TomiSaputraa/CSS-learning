@@ -1,0 +1,20 @@
+h1 {
+    font-size: 100px;
+    color: rgb(117, 13, 13);
+}
+
+p {
+    text-align: center;
+    text-indent: 100px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* letter-spacing: 15px; */
+    word-spacing: 10px;
+}
+
+/*  contoh menghilangkan garis 
+    bawah pada link dengan text decoration 
+    */
+a {
+    text-decoration: none;
+}

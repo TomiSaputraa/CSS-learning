@@ -1,0 +1,26 @@
+div {
+  width: 300px;
+  height: 300px;
+  background-color: #39b5;
+  margin: 50px auto;
+  /* contoh spred */
+  /* box-shadow: 0px 30px 10px -20px rgba(29, 28, 28, 0.75); */
+
+  /* contoh inset */
+  /* box-shadow: inset 0 0 15px 5px rgba(29, 28, 28, 0.5); */
+
+  /* contoh multiple box shadow */
+  /* box-shadow: 5px 5px 5px 5px rgba(228, 30, 30, 0.5),
+    -5px -5px 5px rgba(30, 139, 228, 0.5); */
+
+  /* contoh multiple box shadow banyak */
+  box-shadow: 5px 5px 5px 5px rgba(228, 30, 30, 0.5),
+    -5px -5px 5px rgba(30, 139, 228, 0.5), -5px -5px 5px rgba(30, 139, 228, 0.5),
+    -5px -5px 5px rgba(30, 139, 228, 0.5);
+  transition: 0.3s;
+}
+
+div:hover {
+  box-shadow: 0px 80px 10px -40px rgba(29, 28, 28, 0.15);
+  margin-top: 40px;
+}

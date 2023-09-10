@@ -1,0 +1,10 @@
+
+body {
+    background-color: aqua;
+    background-image: url(gambar/74924041.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* atau bisa dengan cara cepat */
+/* background: color url() position repeat */

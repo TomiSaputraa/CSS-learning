@@ -1,0 +1,28 @@
+a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+/* hanya img saja yang inline tapi kita bisa atur tinggi dan lebarnya */
+img {
+  width: 200px;
+  height: 250px;
+}
+
+.main {
+  width: 600px;
+  background-color: aqua;
+}
+
+.main h2 {
+  background-color: red;
+}
+/* contoh display non    */
+img {
+  display: none;
+}
+
+.navigasi li {
+  display: inline;
+}

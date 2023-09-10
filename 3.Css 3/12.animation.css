@@ -1,0 +1,28 @@
+.kotak {
+  width: 200px;
+  height: 200px;
+  background-color: salmon;
+
+  /* akan berjalan ketika pertama kali dibuka */
+  animation: animasiKotak 3s ease infinite alternate forwards;
+
+  /* atau satu persatu */
+  /* animation-name: animasiKotak;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite; */
+}
+
+@keyframes animasiKotak {
+  0% {
+    width: 200px;
+  }
+  50% {
+    width: 500px;
+    height: 200px;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+  }
+}

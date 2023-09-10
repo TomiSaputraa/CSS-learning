@@ -1,0 +1,31 @@
+.container {
+  width: 800px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+  /* overflow auto akan menyesuaikan tinggi content */
+  /* sehingga float tidak keluar dari container */
+  /* overflow: auto; */
+}
+
+.kiri {
+  background-color: aqua;
+  width: 150px;
+  height: 500px;
+  float: left;
+  padding: 10px;
+  /* tambahkan box sizing agar padding tidak menambah ukuran */
+  box-sizing: border-box;
+}
+.tengah {
+  width: 500px;
+  background-color: blue;
+  float: left;
+  height: 500px;
+}
+.kanan {
+  width: 150px;
+  background-color: brown;
+  height: 500px;
+  float: left;
+}

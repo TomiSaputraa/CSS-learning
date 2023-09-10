@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 10px auto;
+  border: 5px solid black;
+}
+
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  margin: 5px 0;
+  text-align: center;
+  line-height: 100px;
+
+  /* transition: 1s; */
+
+  /* contoh dengan properti salah satu hover */
+  /* transition: margin-left 1s; */
+
+  /* contoh dengan fungsi */
+  /* transition: all 1s ease-in-out; */
+}
+
+.kotak1 {
+  /* transition: all 3s ease; */
+
+  /* contoh dengan delay */
+  /* transition: all 3s ease 2s; */
+  /* transition: transform 3s; */
+  transition: margin-left 3s, transform 3s 2s, background-color 3s 2s;
+}
+
+.kotak2 {
+  transition: all 3s ease-in;
+}
+.kotak3 {
+  transition: all 3s ease-in-out;
+}
+.kotak4 {
+  transition: all 3s linear;
+}
+.kotak5 {
+  transition: all 3s cubic-bezier(0.53, 0.06, 0.25, 1.16);
+}
+
+/* tambahkan elemen pembungkus agar tidak error */
+.container:hover .kotak {
+  transform: rotate(360deg);
+  margin-left: 800px;
+  background-color: blue;
+}

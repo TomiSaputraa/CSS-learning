@@ -1,0 +1,25 @@
+.container {
+  width: 800px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+  /* overflow auto akan menyesuaikan tinggi content */
+  /* sehingga float tidak keluar dari container */
+  /* overflow: auto; */
+}
+
+img {
+  width: 100px;
+  float: left;
+  margin: 5px;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; 
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}

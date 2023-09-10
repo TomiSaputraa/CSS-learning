@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}

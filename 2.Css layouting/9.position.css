@@ -1,0 +1,42 @@
+body {
+  height: 2000px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.container {
+  /* tambahkan position agar container maju 1 dimensi sama dengan .dua */
+  position: relative;
+  width: 600px;
+  height: 650px;
+  border: 10px solid green;
+}
+.satu {
+  /* position: absolute;
+  top: 100px;
+  right: 0; */
+  background-color: aqua;
+}
+
+.dua {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+  /* position: relative;
+  top: 30px;
+  left: 50px; */
+}
+
+.tiga {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: brown;
+}
