@@ -1,0 +1,25 @@
+1. Definis
+Flexbox(Flexible Box Module).
+digunakan untuk membantu mengatur/melayout sebuah halaman website.
+sebuah model layout 1 dimensi yang dapat mengatur jarak dan penjajar antar item dalam sebuah container.
+1 dimensi : Hanya dapat mengatur atara baris dan kolom, tidak bisa keduanya sekaligus.
+untuk 2 dimensi bisa menggunakan css grid.
+Wadah/pembungkus disebut Container dan elemen di dalam nya sebut items
+- main-axis : horizontal
+- cros-axis : vertical
+- main-size : ukuran(width & height) dari container
+- cros-size : ukuran dari kolom
+- main-start/main-end : menentukan awal dari elemen horizontal
+- cros-start/cros-end : menentukan awal dari elemen vertical
+
+2. properti 
+- display : flex(wajib)/inline-flex
+- flex-direction : row(default)/row-reverse/colum/colum-reverse,mengatur arah dari urutan elemen didalamnya
+- flex-wrap : nowrap(default),wrap,wrap-reverse,digunakan ketika elemen sudah tidak muat di container dalam barisnya
+- justify-content : flex-start(default)/flex-end/center/space-between/space-around/space-evenly, untuk mengatur jarak antar items secara horizontal
+- align-items : flex-start/flex-end/center/stretch/baseline(sejajar tergantung baseline font),untuk mengatur kesejajaran antar items secara vertikal
+- align-content : flex-start/flex-end/center/stretch/space-between/space-around,mengatur jarak antar items terhadap cros axis(berlaku ketika content nya lebih dari satu baris)
+items:
+- order : mengatur urutan dari elemen 
+- flex /flex-grow : mengatur ukuran dari items
+- align-self : auto/flex-start/flex-end/center/baseline/stretch, mengatur hanya satu item saja elemen yang mau di posisikan secara cross axis

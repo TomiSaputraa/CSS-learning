@@ -1,0 +1,61 @@
+.container {
+  width: 600px;
+  height: 150px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+
+  /* flex direction */
+  flex-direction: row;
+
+  /* wrap */
+  flex-wrap: wrap;
+
+  /* justify-content */
+  /* justify-content: space-evenly; */
+
+  /* align-items */
+  /* align-items: baseline; */
+}
+
+/* contoh align-items:baseline */
+/* .container div.tiga {
+  font-size: 60px;
+}
+.container div.empat {
+  font-size: 100px; */
+/* } */
+
+/*  order */
+/* .container div.satu { */
+/* default order 0 ketika salah satu order diberikan maka dia valuenya valing tinggi jadinya akan kekanan */
+/* order: 3;
+}
+.dua {
+  order: 1;
+}
+.tiga {
+  order: 4;
+}
+.empat {
+  order: 2;
+} */
+
+/* flex-grow */
+.container div {
+  flex: 1;
+  /* width: 100px;
+  height: 100px; */
+  background-color: aqua;
+  margin: 2px;
+}
+.container .dua {
+  /* ukuran jadi 2x lipat */
+  flex: 3;
+
+  /* align self */
+  align-self: center;
+}

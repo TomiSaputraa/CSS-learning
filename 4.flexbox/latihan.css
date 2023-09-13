@@ -1,0 +1,152 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #eee;
+  line-height: 1.65;
+  padding-bottom: 1000px;
+}
+
+/* Latihan 1 */
+.container-satu {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.kolom-utama {
+  flex: 3;
+  order: 2;
+}
+.sidebar-satu {
+  flex: 1;
+  order: 1;
+}
+.sidebar-dua {
+  flex: 1;
+  order: 3;
+}
+
+/* Latihan 2 */
+.container-dua {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.layanan {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.layanan.satu {
+  background-color: cyan;
+}
+.layanan.dua {
+  background-color: green;
+}
+.layanan.tiga {
+  background-color: red;
+}
+
+/* Latihan 3 */
+.container-tiga {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 50%;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+/* Latihan 4 */
+.container-empat {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.card {
+  border: 1px solid #787676;
+  border-radius: 10px;
+  background-color: #eee;
+  overflow: hidden;
+  margin: 10px;
+  flex: 1;
+}
+
+.card .header {
+  height: 150px;
+  background-color: #787676;
+}
+
+.card .content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Latihan 5 */
+.container-lima {
+  max-width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border: 5px solid black;
+  display: flex;
+}
+
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: #787676;
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.kotak span {
+  margin: auto;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  /* Gaya untuk smartphone (lebar layar < 768px) */
+  /* CSS untuk layar berukuran lebih dari 600px */
+  .container-satu {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .container-dua {
+    display: flex;
+    justify-content: space-between;
+  }
+  .layanan {
+    width: 30%;
+  }
+  .thumbnail {
+    width: 25%;
+  }
+  .container-empat {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  }
+  .card.besar {
+    transform: scale(1.12);
+  }
+}
